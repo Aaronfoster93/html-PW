@@ -1,0 +1,106 @@
+#welcome-section {
+    background-color: teal;
+    height: 30vh;
+}
+
+.welcome-title {
+    text-align: center;
+    color: white;
+    align-items: center;
+
+}
+
+.welcome-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+#projects-section {
+    background-color: lightcyan;
+    padding-bottom: 25px;
+}
+
+
+.aaronimg {
+    border-radius: 50%;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.btn-info{
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: lightseagreen;
+    color: white;
+    transition: 0.7s;
+}
+
+.grid-container {
+    display: grid;
+    margin: 10px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+
+.grid-item {
+    text-align: center;
+    border: 2px solid teal;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+#contactme-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: teal;
+    margin-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        margin: 10px;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-rows: auto;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .grid-container {
+        display: grid;
+        margin: 10px;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-rows: auto;
+        gap: 10px;
+    }
+}
